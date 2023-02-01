@@ -1,2 +1,2 @@
 # ML
-My ML Projects
+This repo includes my practice on machine learning algorithms.
