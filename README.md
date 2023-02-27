@@ -1,2 +1,2 @@
 # ML
-This repo includes my practice on machine learning algorithms.
+This script implements left artry segmentation with UNet. 
