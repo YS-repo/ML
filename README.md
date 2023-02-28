@@ -3,11 +3,14 @@ This script implements left artry segmentation with UNet. The dataset used for t
 
 
 ![img1](https://user-images.githubusercontent.com/124210096/221765905-2a005512-fc06-4082-987e-d29d20348528.png)
-![img2](https://user-images.githubusercontent.com/124210096/221766020-69ddbf69-5f8a-41a7-96fd-8ac229f2b6c6.png)
-![img3](https://user-images.githubusercontent.com/124210096/221768099-06c93f3e-c4b5-431b-98c7-2bdea2cc4951.png)
 ![mask1](https://user-images.githubusercontent.com/124210096/221766035-2f574758-a4a2-4e31-a595-83ebe7a98258.png)
+
+![img2](https://user-images.githubusercontent.com/124210096/221766020-69ddbf69-5f8a-41a7-96fd-8ac229f2b6c6.png)
 ![mask2](https://user-images.githubusercontent.com/124210096/221766046-9377005b-176d-4791-803e-94e46b1fb4d3.png)
+
+![img3](https://user-images.githubusercontent.com/124210096/221768099-06c93f3e-c4b5-431b-98c7-2bdea2cc4951.png)
 ![mask3](https://user-images.githubusercontent.com/124210096/221768100-2a7f3ff5-3c4c-4926-a328-95a8829a9c9a.png)
+
 
 <br />
 
