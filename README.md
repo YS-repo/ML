@@ -61,7 +61,7 @@ for implementing the simplest block of this sample we use the following code:
 
 
 
-Also you can use the colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HqDVY6d1uBk5kam0OJA4ZhHp1jxB_B2D?authuser=1)
+Also you can use the colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HqDVY6d1uBk5kam0OJA4ZhHp1jxB_B2D?authuser=1) notebook and train or evaluate on your own data.
 
 
 
