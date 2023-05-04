@@ -29,9 +29,81 @@ The defined detector would be applied on every frame and estimates the foregroun
 
 <br />
 
+## Differentiating consecutive frames approach
+
+The idea of this way is really simple. we set the previous frame as a background, then we subtract the cuurent frame from previous one. The background frame would be updated in every step, meaning the current frame would be background frame for the next iteration. Obviously, this method has some weaknesses but overall, it creates good results. Furthermore, with appropriate post-processing, we can get rid of unwanted movements (such as the effect of wind on the leaf of trees). Unfortunately, this method does not work well with shadows. This means even shadows of the objects would be considered as moving object. Following figure, shows an output of this method:
+
+<p align="center">
+ 
+
+
+<a href="https://github.com/YS-repo/ML/edit/Tracking/">
+  <img src="https://user-images.githubusercontent.com/124210096/236118286-902824d6-1b84-4b42-8452-eb76985985e0.png" alt="Gif" width="350" height="300">
+</a>
+
+<a href="https://github.com/YS-repo/ML/edit/Tracking/">
+  <img src="https://user-images.githubusercontent.com/124210096/236122092-78a0e152-8a84-4652-ac4d-22360dcec319.png" alt="Gif" width="350" height="300">
+</a>
+
+</p>
+
+<br />
+
+Maybe in a first look, the machine learning approach seems more accurate but this is not true. let's take a look to the following gifs:
+
+
+<p align="center">
+ 
+
+<a href="https://github.com/YS-repo/ML/edit/Tracking/">
+ <img src="https://user-images.githubusercontent.com/124210096/236125011-615b94b5-5bff-4c96-80a5-c2ae95e3391a.gif" alt="Gif" width="350" height="300">
+  
+</a>
+
+<a href="https://github.com/YS-repo/ML/edit/Tracking/">
+ <img src="https://user-images.githubusercontent.com/124210096/236124992-1926f677-54da-4995-81e1-378a28952f9d.gif" alt="Gif" width="350" height="300">
+ 
+ 
+</a>
+
+</p>
+<p align="center">
+    <em>Differentiating consecutive frames outputs</em>
+</p>
+<br />
 
 
 
+<p align="center">
+ 
+
+<a href="https://github.com/YS-repo/ML/edit/Tracking/">
+ <img src="https://user-images.githubusercontent.com/124210096/236125011-615b94b5-5bff-4c96-80a5-c2ae95e3391a.gif" alt="Gif" width="350" height="300">
+  
+</a>
+
+<a href="https://github.com/YS-repo/ML/edit/Tracking/">
+ <img src="https://user-images.githubusercontent.com/124210096/236127088-3e87f650-a696-4f57-897e-84b48700f5bd.gif" alt="Gif" width="350" height="300">
+ 
+ 
+</a>
+
+</p>
+<p align="center">
+    <em>Machine learning outputs</em>
+</p>
+<br />
+
+
+## Triangulation
+
+After obtaining the foreground mask, we will triangulate the foreground. The quality of our triangulation is mainly dependant to the mask we create. IF the mask is good enough, triangulation would be nice and smooth. In contrast, bad mask can lead to falsy results. Remember, we are doing triangulation to highlight the moving objects. Apparently, we will have better results with second method, because the foreground mask is much more better than the first way. To obtain the vertices of triangles, we use the following line of code:
+
+```matlab
+delaunay_tri=delaunay(del_points(:,1),del_points(:,2));
+ ```
+ Here del_points are coordinates of corners and centroids of the foreground mask. The following videos are the final outputs of the two methods:
+ 
 
 
 
