@@ -105,6 +105,23 @@ delaunay_tri=delaunay(del_points(:,1),del_points(:,2));
  Here del_points are coordinates of corners and centroids of the foreground mask. The following videos are the final outputs of the two methods:
  
 
+<p align="center">
+ 
+
+<a href="https://github.com/YS-repo/ML/edit/Tracking/">
+ <img src="https://user-images.githubusercontent.com/124210096/236131780-20d37ac2-51bc-4a0b-80ed-401c34795800.gif" alt="Gif" width="350" height="300">
+  
+</a>
+
+<a href="https://github.com/YS-repo/ML/edit/Tracking/">
+ <img src="https://user-images.githubusercontent.com/124210096/236131891-f5b92431-bc8c-4a1e-b763-294c0347affe.gif" alt="Gif" width="350" height="300">
+ 
+ 
+</a>
+
+</p>
+    <em>  &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Differentiating consecutive frames   &emsp;&emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp;        Machine learning </em>
+<br />
 
 
 
