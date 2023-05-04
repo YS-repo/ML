@@ -120,7 +120,7 @@ delaunay_tri=delaunay(del_points(:,1),del_points(:,2));
 </a>
 
 </p>
-    <em>  &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Differentiating consecutive frames   &emsp;&emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp;        Machine learning </em>
+    <em>   &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Differentiating consecutive frames    &emsp; &emsp;&emsp; &emsp;&emsp;        Machine learning </em>
 <br />
 
 
