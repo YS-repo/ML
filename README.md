@@ -30,9 +30,17 @@ Below table shows loss and accuracy parameters through some epochs.
 
 By increasing the number of training epochs and utilizing a larger dataset, the model's performance would see a significant improvement. Here are a few examples of the model's outputs on the test set:
 
-|  Original Image | Corrosponding Mask (segmentation format) | Output of model |
+|  Original Image | Corresponding Mask (segmentation format) | Output of model |
 | :-:             |                    :-:                   |        :-:      |
 | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4941_19960909_12__1_.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4941_19960909_12_mask__1_.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4941_19960909_12_detected.png) |
 | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4942_19970222_9.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4942_19970222_9_mask.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4942_19970222_9_detected.png) |
 | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_6669_20020102_10.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_6669_20020102_10_mask.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_6669_20020102_10_detected.png) |
 | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_DU_5849_19950405_20.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_DU_5849_19950405_20_mask.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_DU_5849_19950405_20_detected.png) |
+
+## License
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). Feel free to use, modify, and distribute the code, while keeping the license file intact.
+
+## Contact
+If you have any questions, suggestions, or feedback, please reach out to us at [younesshokoohi@gmail.com]
+We hope this Brain Tumor Detection system proves valuable in aiding healthcare professionals in their fight against brain tumors. Thank you for your interest in our project!
+
