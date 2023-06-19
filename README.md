@@ -18,6 +18,38 @@ A full description of how to work with yolov8 can be found on [ultralytics](http
 
 ## Usage
 
+Clone the repository to your local system. Follow the instructions below for r=each purpose:
+
+### Converting data to Yolo format
+In [convert_to_yolo.py](https://github.com/YS-repo/ML/blob/Tumor_Detection/convert_to_yolo.py) file, utilize the "seg_to_det" method to extract the bounding box of your ground truths.
+For converting the bounding box coordinates to Yolo format you can use the "to_yolo" method. The output of the previous step can be fed to this method. However, if you already possess a dataset in the YOLO format, you can disregard this step.
+
+### Training
+For training on your custom data, you can easily use the train_yolo method in [training.py](https://github.com/YS-repo/ML/blob/Tumor_Detection/training.py). To specify the "yaml_path" argument, provide the path to your customized YAML file. Feel free to create this file according to your specific requirements and preferences. It should look something like the below:
+
+![yaml](https://github.com/YS-repo/ML/assets/124210096/3da7a737-797d-45d9-8366-4f5e213c6b1a)
+
+The directory of the dataset looks like below:
+
+```
+├── Tomur Data
+│   ├── train
+│   │   ├── image1.png
+│   │   ├── image1.txt
+│   │   ├── image2.png
+│   │   ├── image2.txt
+│   │   ├── .
+│   │   ├── .
+│   │   ├── .
+│   ├── test
+│   │   ├── image1_test.png
+│   │   ├── image1_test.txt
+│   │   ├── image2_test.png
+│   │   ├── image2_test.txt
+│   │   ├── .
+│   │   ├── .
+│   │   ├── .
+```
 
 
 
