@@ -88,6 +88,6 @@ By increasing the number of training epochs and utilizing a larger dataset, the 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). Feel free to use, modify, and distribute the code, while keeping the license file intact.
 
 ## Contact
-If you have any questions, suggestions, or feedback, please reach out to us at [](younesshokoohi@gmail.com)
+If you have any questions, suggestions, or feedback, please reach out to us at younesshokoohi@gmail.com.
 We hope this Brain Tumor Detection system proves valuable in aiding healthcare professionals in their fight against brain tumors. Thank you for your interest in our project!
 
