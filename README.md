@@ -8,17 +8,22 @@ Brain tumors pose a significant health risk, and early detection plays a crucial
 
 ## Dataset
 
-This project uses [THIS](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation) dataset to train the object detection model. Originally, this dataset is provided for segmentation task, but we changed it to detection format. This is simply done by finding a bounding box of the tumor section in the ground truth and changing it to yolo format. To see more details, take a look at [convert_to_yolo.py](https://github.com/YS-repo/ML/blob/Tumor_Detection/convert_to_yolo.py) file. 
+This project uses [THIS](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation) dataset to train the object detection model. Originally, this dataset is provided for the segmentation task, but we changed it to detection format. This is simply done by finding a bounding box of the tumor section in the ground truth and changing it to Yolo format. To see more details, take a look at [convert_to_yolo.py](https://github.com/YS-repo/ML/blob/Tumor_Detection/convert_to_yolo.py) file. 
 
 ## Yolo
 YOLO (You Only Look Once) was introduced by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi in 2016. The original YOLO paper, titled "You Only Look Once: Unified, Real-Time Object Detection," presented a groundbreaking approach to real-time object detection.
-YOLO processes an entire image in a single pass, predicting object bounding boxes and class probabilities simultaneously. YOLO's unified approach enables fast and accurate detection across various scales and aspect ratios. It has widespread adoption in domains like autonomous driving and surveillance systems, offering a powerful solution for real-time object detection tasks. To read more about YOLO, visit [THIS](https://pjreddie.com/darknet/yolo/) website.
+YOLO processes an entire image in a single pass, simultaneously predicting object bounding boxes and class probabilities. YOLO's unified approach enables fast and accurate detection across various scales and aspect ratios. It has widespread adoption in domains like autonomous driving and surveillance systems, offering a powerful solution for real-time object detection tasks. To read more about YOLO, visit [THIS](https://pjreddie.com/darknet/yolo/) website.
 To date, a total of eight versions of YOLO have been released, and for the implementation of the tumor detection task, we utilize the latest version available.
-Full description of how to work with yolov8 can be found in [ultralytics](https://docs.ultralytics.com/) website.
+A full description of how to work with yolov8 can be found on [ultralytics](https://docs.ultralytics.com/) website.
+
+## Usage
+
+
+
 
 ## Results
 
-Below table shows loss and accuracy parameters through some epochs.
+The below table shows loss and accuracy parameters through some epochs.
 
 |     Epoch     | train box loss|   precision   |      recall   |      mAP50    |    mAP50-95   |  val box loss |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -41,6 +46,6 @@ By increasing the number of training epochs and utilizing a larger dataset, the 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). Feel free to use, modify, and distribute the code, while keeping the license file intact.
 
 ## Contact
-If you have any questions, suggestions, or feedback, please reach out to us at [younesshokoohi@gmail.com]
+If you have any questions, suggestions, or feedback, please reach out to us at [](younesshokoohi@gmail.com)
 We hope this Brain Tumor Detection system proves valuable in aiding healthcare professionals in their fight against brain tumors. Thank you for your interest in our project!
 
