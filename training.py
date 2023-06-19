@@ -9,5 +9,4 @@ class train():
         model = YOLO('yolov8n.yaml')
         model = YOLO('yolov8n.pt')
         model = YOLO('yolov8n.yaml').load('yolov8n.pt')
-        import pdb;pdb.set_trace()
         model.train(data = yaml_path, epochs = epochs, imgsz = imgsize, workers = 0)
