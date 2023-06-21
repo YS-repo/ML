@@ -1,1 +1,1 @@
-la_recog.ipynb -linguist-vendored
+*.ipynb -linguist-vendored=IPython Notebook
