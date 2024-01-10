@@ -1,2 +1,2 @@
 # ML
-This repo includes my practice on machine learning algorithms.
+This repo includes my practice on ML/DL and image processing algorithms.
