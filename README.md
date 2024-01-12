@@ -18,7 +18,7 @@ A full description of how to work with yolov8 can be found on [ultralytics](http
 
 ## Usage
 
-Clone the repository to your local system. Follow the instructions below for r=each purpose:
+Clone the repository to your local system. Follow the instructions below for each purpose:
 
 ### Converting data to Yolo format
 - - -
