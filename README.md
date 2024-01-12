@@ -79,10 +79,10 @@ By increasing the number of training epochs and utilizing a larger dataset, the 
 
 |  Original Image | Corresponding Mask (segmentation format) | Output of model |
 | :-:             |                    :-:                   |        :-:      |
-| ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4941_19960909_12__1_.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4941_19960909_12_mask__1_.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4941_19960909_12_detected.png) |
-| ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4942_19970222_9.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4942_19970222_9_mask.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_4942_19970222_9_detected.png) |
-| ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_6669_20020102_10.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_6669_20020102_10_mask.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_CS_6669_20020102_10_detected.png) |
-| ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_DU_5849_19950405_20.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_DU_5849_19950405_20_mask.png) | ![](https://filebin.net/n72lzs7v1j7p8qds/TCGA_DU_5849_19950405_20_detected.png) |
+| ![](https://github.com/YS-repo/ML/assets/124210096/b9f55591-6019-4f95-b9fd-688c9ef1f08c) | ![](https://github.com/YS-repo/ML/assets/124210096/631b7311-4a4c-480c-affb-3d6396824628) | ![](https://github.com/YS-repo/ML/assets/124210096/59cfa47c-e486-46d4-b782-5f9e2af15882) |
+| ![](https://github.com/YS-repo/ML/assets/124210096/becf8dba-de7a-4a2a-b749-29a3a203e90b) | ![](https://github.com/YS-repo/ML/assets/124210096/7d85b9c4-9a67-461c-adb3-a9de85a900b9) | ![](https://github.com/YS-repo/ML/assets/124210096/453a18fa-e863-4534-a65d-a0a653b7e6eb) |
+| ![](https://github.com/YS-repo/ML/assets/124210096/71537681-3b1f-407d-8917-4d4e068b4684) | ![](https://github.com/YS-repo/ML/assets/124210096/cbf02834-c1a2-4cc7-9b43-da2f3502bf05) | ![](https://github.com/YS-repo/ML/assets/124210096/fa20938f-d74a-4721-a124-fa19c8a62db9) |
+| ![](https://github.com/YS-repo/ML/assets/124210096/56c0715e-4b21-4619-98fc-f9e7e9eae392) | ![](https://github.com/YS-repo/ML/assets/124210096/c0cbbbbe-ccfb-41b6-9881-6d2cb35db149) | ![](https://github.com/YS-repo/ML/assets/124210096/9892d1c4-8463-4acb-91bb-749f1fe30ec3) |
 
 ## License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). Feel free to use, modify, and distribute the code, while keeping the license file intact.
